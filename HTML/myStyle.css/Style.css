@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(139, 139, 139);
+    color:rgb(17, 196, 220)
+}
+h1 {
+    color: blue;
+}
+h2 {
+    color: blueviolet;
+}
+h3 {
+    border: dotted 5px red;
+}
+*{
+   color: green; 
+}
+.super{
+    color: black;
+}
+#super_id{
+    background: greenyellow;
+}
+#test {
+    background-color: yellow;
+    width: 60px;
+    height: 60%;
+}
+.parent{
+    height: 500;
+    width: 500;
+    background-color: red;
+}

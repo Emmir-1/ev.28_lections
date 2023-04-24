@@ -82,4 +82,44 @@
 # dict_ = json.load(json_data)
 # pp.pprint(dict_)
 
+# def func1(list_): 
+#     res = [] 
+#     for i in list_: 
+#         i['salary'] = i['salary'] + i['overTime']*200 
+#         i.popitem() 
+#         return 
+# employees = [ {'name': 'Jack', 'salary': 10000, 'overTime': 4}, 
+#             {'name': 'Tom', 'salary': 15000, 'overTime': 3}, 
+#             {'name': 'Jessica', 'salary': 20000, 'overTime': 9}, 
+#             {'name': 'Helen', 'salary': 25000, 'overTime': 2}, 
+#             {'name': 'Peter', 'salary': 30000, 'overTime': 7} ] 
+# print(func1(employees))
 
+# def func1(list_): 
+#     list_new = [] 
+#     for x in list_: 
+#         x["salary"] = x["salary"] + (x["overTime"] * 200) 
+#         x.pop("overTime") 
+#         list_new.append(x) 
+#         print(list_new) 
+#         return list_new 
+# employees = [ {'name': 'Jack', 'salary': 10000, 'overTime': 4}, 
+#                  {'name': 'Tom', 'salary': 15000, 'overTime': 3}, 
+#                  {'name': 'Jessica', 'salary': 20000, 'overTime': 9}, 
+#                  {'name': 'Helen', 'salary': 25000, 'overTime': 2}, 
+#                  {'name': 'Peter', 'salary': 30000, 'overTime': 7} ] 
+# print(func1(employees))
+
+# employees = [ {'name': 'Jack', 'salary': 10000, 'overTime': 4}, 
+#              {'name': 'Tom', 'salary': 15000, 'overTime': 3}, 
+#              {'name': 'Jessica', 'salary': 20000, 'overTime': 9},
+#             {'name': 'Helen', 'salary': 25000, 'overTime': 2}, 
+#             {'name': 'Peter', 'salary': 30000, 'overTime': 7} ] 
+
+# def func1(lsofdict:dict): 
+#     for x in lsofdict: 
+#         if 'overTime' in x:
+#             x['salary'] += x['overTime'] * 200 
+#             x.pop('overTime') 
+#     return lsofdict 
+# func1(employees)
