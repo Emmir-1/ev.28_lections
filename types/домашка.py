@@ -189,16 +189,15 @@
 #             result.append(i) 
 #             return result
 
-with open('file.txt', 'r') as file:
-    lines = file.readlines()
-    num_lines = len(lines) 
-    num_chars = 0 
-    num_words = 0 
-    for line in lines:
-        num_chars += len(line)
-        words = line.split()
-        num_words += len(words)
-        print(f"Количество символов в строке: {len(line)}. Количество слов в строке: {len(words)}")
-    print(f"Количество строк в файле: {num_lines}. Количество символов в файле: {num_chars}. Количество слов в файле: {num_words}")
-
+# with open('file.txt', 'r') as file:
+#     lines = file.readlines()
+#     num_lines = len(lines) 
+#     num_chars = 0 
+#     num_words = 0 
+#     for line in lines:
+#         num_chars += len(line)
+#         words = line.split()
+#         num_words += len(words)
+#         print(f"Количество символов в строке: {len(line)}. Количество слов в строке: {len(words)}")
+#     print(f"Количество строк в файле: {num_lines}. Количество символов в файле: {num_chars}. Количество слов в файле: {num_words}")
 
