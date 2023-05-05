@@ -1,0 +1,30 @@
+[
+    {
+        "id": 2,
+        "title": "Redmi Not 20",
+        "description": "The Good phone",
+        "qty": 10,
+        "price": 250
+    },
+    {
+        "id": 3,
+        "title": "Iphone 14 Pro Max",
+        "description": "Super Phone",
+        "qty": 6,
+        "price": 750
+    },
+    {
+        "id": 4,
+        "title": "Samsung S23",
+        "description": "Nice Good Phone",
+        "qty": 3,
+        "price": 700
+    },
+    {
+        "id": 5,
+        "title": "Iphone 13 Pro Max",
+        "description": "Super nice Phone",
+        "qty": 5,
+        "price": 650
+    }
+]
