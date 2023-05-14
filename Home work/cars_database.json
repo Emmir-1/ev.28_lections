@@ -1,0 +1,22 @@
+[
+    {
+        "brand": "Mercedes ",
+        "model": "E63",
+        "year": 2019,
+        "engine_volume": 6.3,
+        "color": "Gray",
+        "body_type": "Sedan",
+        "mileage": 5000,
+        "price": 27000.0
+    },
+    {
+        "brand": "BMW",
+        "model": "5-series M5",
+        "year": 2020,
+        "engine_volume": 4.6,
+        "color": "Green",
+        "body_type": "Sedan",
+        "mileage": 4500,
+        "price": 33000.0
+    }
+]

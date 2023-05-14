@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "username": "JohnSnnow",
+        "first_name": "John",
+        "last_name": "Snow",
+        "password": {
+            "password": "a\u00be\u00d7\u00b4\u00ec\u00f1O`uUN\u00d8\u00bcC3WS\u00d8\u00e3\u0001\u00f4\u00ec\u00b6\u00ed\u00c0M\u00d3\u0019\u00a0H\u00a3\u00df",
+            "salt": "J?$\u00b9\u00b6sE\u0095\u0092Z\u00dc\u00ec\u001b#<\u00a5\u00d7\u0015G\u00a45/\u00aa\u008b5l\u008d\u00df\u00c7\u0095v\u000f"
+        }
+    }
+]

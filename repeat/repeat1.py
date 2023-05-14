@@ -44,7 +44,7 @@
 #--------------------------------------------------------------------------------
 
 # import random
-# ls = ["plow", "besh-barmak", "kuurdak", "oromo", "lagman"]
+# ls = ["plov", "besh-barmak", "kuurdak", "oromo", "lagman"]
 # p = 0
 # b = 0
 # k = 0
@@ -54,20 +54,27 @@
 # for x in range(0, 1_000_000):
 #     meal = random.choice(ls)
 #    # print(meal)
-#     if meal.lower() == "plow":
+#     if meal.lower() == "plov":
 #         p += 1
 #     elif meal.lower() == "besh-barmak":
-#          b += 1 
+#         b += 1 
 #     elif meal.lower() == "kuurdak":
-#          k += 1 
+#         k += 1 
 #     elif meal.lower() == "oromo":
-#          o += 1 
+#         o += 1 
 #     else:
-#          l += 1
+#         l += 1
 
         
 # print("Результат голодных игр")        
-# print(f"plow: {p}\nbesh-barmak: {b}\nkurdak: {k}\noromo{o}\nlagman{l}")
+# # print(f"plow: {p}\nbesh-barmak: {b}\nkurdak: {k}\noromo{o}\nlagman{l}")
+# dict_ = {"plov": p, "besh-barmak": b, "kuurdak": k, "oromo": o, "lagman": l}
+
+# print(dict_)
+# res = sorted(dict_.items(), key = lambda x: x[1], reverse=True)[0]
+# print(f"Победило блюда {res[0]} и оно набрало: {res[1]} очков!")
+
+
 
 #--------------------------------------------------------------------------------
 """
