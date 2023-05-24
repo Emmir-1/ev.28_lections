@@ -206,7 +206,6 @@ env
 ORM/venv 
 scraping/parsing_kaktus/venv
 scraping/parshing_mashina/venv
-
 telega_bot/venv
 
 # Spyder project settings

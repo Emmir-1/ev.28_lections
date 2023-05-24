@@ -19,7 +19,7 @@
 # 3 уровня сокрытия данных в питоне
 #     1. Публичный(public) - number, print_number
 #     2. Защищенный(_protevted) - _number
-#     3. Пиватный(__private) - __number
+#     3. Приватный(__private) - __number
 
 # class Car:
 #     _country = "Germany"
