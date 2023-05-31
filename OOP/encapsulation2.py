@@ -1,4 +1,6 @@
 # Анотация свойств (@property(getattr, setattr))
+# @property - это у нас облегченый способ написание гетара в конце не нужно писать скобки
+
 
 # class Person:
 #     __name = "John"
@@ -171,3 +173,5 @@
 
 # contact = Phone('John', 'Snow', '+996707707707') 
 # contact.get_info()
+
+
